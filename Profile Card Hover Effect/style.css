@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #213448;
+    color: rgb(0, 0, 0);
+    gap: 30px;
+}
+.card{
+    width: 400px;
+    padding: 40px;
+    background-color: #547792;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.image{
+    width: 180px;
+    height: 180px;
+    margin-top: -130px;
+    border: 3px solid #547792 ;
+    border-radius: 10px;
+    margin-inline: auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.containSection{
+    margin-top: 20px;
+    text-align: center;
+    height: 65px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card:hover .containSection{
+    height: 240px;
+}
+.card:hover{
+    background-color: #94B4C1;
+}
+.card:hover h3{
+    color: #5e5e5f;
+}
+.card:hover .image{
+    border-color: #94B4C1;
+}
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ECEFCA;
+}
+.socialRowSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.col p{
+    color: #454546;
+    font-weight: 500;
+}
+button{
+    width: 100%;
+    height: 50px;
+    background-color: #547792;
+    color: #ECEFCA;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid #213448;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.socialRowSection button:nth-child(2){
+    background-color: transparent;
+    color: #213448;
+    font-weight: 900;
+}
+button:hover, .row2:hover{
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
