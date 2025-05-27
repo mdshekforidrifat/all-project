@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    height: 87px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    padding: 0 0 48px;
+}
+
+/**navber **/
+.nav {
+    height: 87px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #aaa;
+
+}
+
+.navber {
+    height: 87px;
+    width: 1256px;
+    background-color: #fff;
+    padding: 12px 0;
+    border-bottom: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.search-bar {
+    height: 42px;
+    width: 700px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-bar input {
+    height: 100%;
+    width: 100%;
+    padding-left: 12px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.search-icon {
+    width: 48px;
+    height: 100%;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 0 8px 8px 0;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-left: 25px;
+
+
+}
+
+.icons i {
+    font-size: 20px;
+}
+
+.cart {
+    padding-left: 25px;
+}
+
+/***    nav menu  ***/
+.panel {
+    background-color: #fff;
+    height: 53px;
+
+}
+
+.panel1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+.panel1 p {
+    padding: 8px 16px;
+    border-right: 1px solid #ccc;
+}
+
+.panel1 i {
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #969595;
+}
+
+/*** heroo img ***/
+.heroImg {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height: 650px;
+}
+
+/*** top categoridw***/
+.topCatagori {
+    height: 190px;
+    width: 1280px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.section-title {
+    font-size: 20px;
+    margin: 24px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.section-title::before,
+.section-title::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+.catContanet {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.catContanet .box {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: white;
+    border: none;
+
+
+}
+
+.box img {
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/*** attor section ***/
+.attorsec {
+    height: 60px;
+    width: 1280px;
+    margin: auto;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+.attorsec h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.attorsec span {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    right: 115px;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.attorsec p {
+    height: 36px;
+    width: 85px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border-radius: 25px;
+}
+
+/*** attor img **/
+.attorImg {}
+
+.attorbox {
+    width: 1280px;
+    height: 857px;
+    margin: auto;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.attorbox .a-box {
+    height: 416px;
+    width: 302px;
+    border: 1px solid;
+    border-radius: 10px 10px 0 0;
+}
+
+.attorbox .a-box img {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 8.5px 8.55px 0 0;
+}
+
+.attorbox .a-box p {
+    color: #000000;
+    text-align: center;
+    margin-top: 12px 0 0;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.attorbox .a-box .pp {
+    font-weight: 600;
+}
+
+.attorbox .a-box span {
+    height: 36px;
+    width: 300px;
+    background-color: black;
+    display: block;
+    color: white;
+
+    padding: 8px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 400px;
+    width: 100%;
+}
+
+.footerInfo {
+    height: 344px;
+    width: 1280px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-top: 48px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.CustomerAccount {
+    width: 344px;
+    font-weight: 600;
+}
+.CustomerAccount p{
+    margin: 12px 0 0 ;
+}
+
+.relatedPage {
+    width: 344px;
+    font-weight: 600;
+}
+.relatedPage p{
+        margin: 12px 0 0 ;
+}
+
+.Info {
+    height: 208px;
+    width: 1248px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.help span{
+       font-weight: 600; 
+}
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+        font-size: 20px;
+}
+.last{
+    height: 55px;
+    width: 100%;
+    color: rgb(202, 197, 197);
+    display: flex;
+    justify-content: center;
+}
+.lastT{
+    height: 100%;
+    width: 1280px;
+    border-top: 1px solid rgb(77, 99, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastT p{
+    font-size: 12px;
+}
+.lastT .shek{
+    font-size: 14px;
+    color: white;
+}
+.Tron{
+    color: yellow;
+        font-size: 16px;
+}
